@@ -1,4 +1,5 @@
 # flask_tesseract
 I'm using Google's OCR Tesseract engine wrapped in a Flask instance. 
 This will return extracted text from various types of image files.
+For best results, use mid to large size files. Smaller files can sometimes return garbled words. 
 Let me know if you have any questions. 
