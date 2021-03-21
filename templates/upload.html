@@ -1,31 +1,33 @@
-# By Julio Daniel 12 November 2020
+Thanks for using D8A-Banks software
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Upload Image</title>
+    <title>🌱D8A-Banks</title>
 </head>
 <body>
 
     {% if msg %}
-    <h1>{{ msg }}</h1>
+    <h1> 🏁{{ msg }}</h1>
     {% endif %}
 
-    <h1>Upload new File</h1>
+    <h2>🤖🔊Upload New Files here:</h2>
+    <h3>*Be aware that smaller image files may error. Best results will be with mid-size files or larger.</h3>
 
     <form method=post enctype=multipart/form-data>
         <p><input type=file name=file>
             <input type=submit value=Upload></p>
     </form>
-    <h1>Result:</h1>
-    {% if img_src %}
-        <img src="{{ img_src }}">
-    {% endif %}
+    <h1>📜Result:</h1>
+<!--    {% if img_src %}-->
+<!--        <img src="{{ img_src }}">-->
+<!--    {% endif %}-->
 
     {% if extracted_text %}
-        <p> The extracted text from the image above is : <b> {{ extracted_text }}</b></p>
+        <p> The text from the image above is :
+            <b> {{ extracted_text }} 📜</b></p>
     {% else %}
-        The extracted text will be displayed here
+        The extracted text will be displayed here.
     {% endif %}
 </body>
 </html>
