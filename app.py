@@ -35,7 +35,7 @@ def upload_page():
 
             extracted_text = ocr_core(file)
 
-            return render_template('upload.html', msg='Successfully processed',
+            return render_template('upload.html', msg='Processed successfully.',
                                    extracted_text=extracted_text,
                                    img_src= UPLOAD_FOLDER + file.filename)
     elif request.method == 'GET':
@@ -46,4 +46,3 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
-    #  https://github.com/ro6ley/python-ocr-example
