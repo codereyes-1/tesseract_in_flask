@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn tesseract_in_flask:tesseract_in_flask
