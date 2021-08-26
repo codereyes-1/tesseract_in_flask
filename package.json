@@ -1,5 +1,26 @@
 {
   "devDependencies": {
     "gh-pages": "^3.1.0"
-  }
+  },
+  "dependencies": {
+    "upgrade": "^1.1.0"
+  },
+  "name": "tesseract_in_flask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codereyes-1/tesseract_in_flask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codereyes-1/tesseract_in_flask/issues"
+  },
+  "homepage": "https://github.com/codereyes-1/tesseract_in_flask#readme",
+  "description": ""
 }
